@@ -23,6 +23,7 @@ MonoBehaviour:
   bodyTrackingSupport: 0
   faceTrackingSupport: 0
   eyeTrackingSupport: 0
+  virtualKeyboardSupport: 0
   colocationSessionSupport: 0
   sceneSupport: 2
   boundaryVisibilitySupport: 0
@@ -36,7 +37,6 @@ MonoBehaviour:
   enableIL2CPPLTO: 0
   removeGradleManifest: 1
   metaXrFeaturePromptDeclined: 1
-  useOpenXRPromptDeclined: 0
   focusAware: 1
   requiresSystemKeyboard: 0
   experimentalFeaturesEnabled: 0
