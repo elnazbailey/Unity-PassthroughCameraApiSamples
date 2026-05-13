@@ -154,7 +154,6 @@ MonoBehaviour:
       sssCustomDownsampleSteps: 0
       msaaMode: 1
       materialQuality: 0
-  m_Version: 14
   m_Settings:
     m_SettingsList:
       m_List:
@@ -223,9 +222,12 @@ MonoBehaviour:
     obsoleteHasProbeVolumes:
       m_Keys: []
       m_Values: 
+  m_Version: 14
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 5211657919302205645
       type: {class: RayTracingRenderPipelineResources, ns: UnityEngine.Rendering.UnifiedRayTracing, asm: Unity.UnifiedRayTracing.Runtime}
       data:
@@ -700,7 +702,7 @@ MonoBehaviour:
       type: {class: LookDevVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
         m_Version: 0
-        m_VolumeProfile: {fileID: 0}
+        m_VolumeProfile: {fileID: 11400000, guid: 4f582f0ee74cb46578c52a0ba23c6ca4, type: 2}
     - rid: 5211657919302205665
       type: {class: HDRenderPipelineEditorAssets, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:

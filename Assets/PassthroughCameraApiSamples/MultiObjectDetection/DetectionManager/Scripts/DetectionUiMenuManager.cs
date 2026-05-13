@@ -5,6 +5,7 @@ using Meta.XR.Samples;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Varjo.XR;
 
 namespace PassthroughCameraSamples.MultiObjectDetection
 {
@@ -39,7 +40,13 @@ namespace PassthroughCameraSamples.MultiObjectDetection
 
             // Wait for permissions
             OnNoPermissionMenu();
+            /*
             while (!OVRPermissionsRequester.IsPermissionGranted(OVRPermissionsRequester.Permission.Scene) || !OVRPermissionsRequester.IsPermissionGranted(OVRPermissionsRequester.Permission.PassthroughCameraAccess))
+            {
+                yield return null;
+            }
+            */
+            while (!VarjoMixedReality.IsMRAvailable())
             {
                 yield return null;
             }
@@ -80,7 +87,13 @@ namespace PassthroughCameraSamples.MultiObjectDetection
 
         private void InitialMenuUpdate()
         {
+            /*
             if (InputManager.IsButtonADownOrPinchStarted())
+            {
+                OnPauseMenu(false);
+            }
+            */
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             {
                 OnPauseMenu(false);
             }

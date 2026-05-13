@@ -966,7 +966,6 @@ MonoBehaviour:
   m_multiviewRenderRegionsOptimizationMode: 0
   m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &2326669210844359608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1320,7 +1319,6 @@ MonoBehaviour:
   m_multiviewRenderRegionsOptimizationMode: 0
   m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
-  m_useOpenXRPredictedTime: 0
 --- !u!114 &6897714978682938253
 MonoBehaviour:
   m_ObjectHideFlags: 0
