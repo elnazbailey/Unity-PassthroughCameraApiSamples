@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9904ba1b1ccbb944b07293e121c5431, type: 3}
   m_Name: VarjoSettings
   m_EditorClassIdentifier: Varjo.XR::Varjo.XR.VarjoSettings
-  StereoRenderingMode: 1
+  StereoRenderingMode: 0
   SeparateCullPass: 0
   FoveatedRendering: 1
   ContextScalingFactor: 1

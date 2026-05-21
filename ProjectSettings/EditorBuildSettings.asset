@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Samples/Varjo XR Plugin/3.7.3/HDRP Samples/MixedReality/Scenes/MixedReality.unity
+    guid: 9ed11a5410e34cf4a8b16ebc69c13ffc
+  - enabled: 1
     path: Assets/PassthroughCameraApiSamples/StartScene/StartScene.unity
     guid: 69e1b31c45bac42f88f75017ee404de1
   - enabled: 1
@@ -23,6 +26,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/PassthroughCameraApiSamples/ShaderSample/ShaderSample.unity
     guid: 708e8dca6055146b28afe2481f141457
+  - enabled: 1
+    path: Assets/TEST.unity
+    guid: 3f57810c60bfe964b81c20aae3104fae
+  - enabled: 1
+    path: Assets/Scenes/RealWorld.unity
+    guid: f65cc5f1c9881e34d96567517fdcb68c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f2bf97b3acdb64248a707c407c9fc54e, type: 2}
     Varjo.XR.Settings: {fileID: 11400000, guid: 1319b3b5c29b03a4292c9cca0003d81a, type: 2}
